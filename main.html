@@ -1,16 +1,70 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Suresh Kumar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 5%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container">
+        <img src="C:\Users\sures\OneDrive\Desktop\My Development\images\my png.jpg" alt="Suresh Kumar">
+        <h1>Suresh Kumar</h1>
+        <p style="text-align: center;">
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn Profile</a>
+        </p>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>I specialize in Full Stack Development with expertise in the MERN stack</p>
+        </section>
 
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Portfolio Website:</strong> A responsive website to showcase my skills and projects.</li>
+                <li><strong>Task Manager App:</strong> A MERN stack application for managing tasks with user authentication.</li>
+                <li><strong>E-commerce Platform:</strong> A full-featured e-commerce website with a product catalog and shopping cart.</li>
+            </ul>
+        </section>
+    </div>
 </body>
-
 </html>
